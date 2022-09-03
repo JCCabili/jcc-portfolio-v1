@@ -137,7 +137,7 @@ export default function Experience() {
       <div className="flex px-4 w-full md:w-auto">
         <List value={selected} onChange={setSelected}/>
       </div>
-      <div className="flex px-4 w-full sm:w-2/4">
+      <div className="flex w-3/4 sm:px-4 sm:w-2/4">
         <Description value={selected}/>
       </div>
       {/* <div className="w-full px-4 py-16">

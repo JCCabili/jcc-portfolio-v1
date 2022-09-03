@@ -63,18 +63,10 @@ export function Project(props) {
           src={project.img}
           alt="" onClick={()=>setIsOpen(true)}/>
         <p className="text-xl text-primary py-2">{project.name}</p>
-        <p className=" text-xs text-ellipsis overflow-hidden ...">{project.descriptions}</p>
-        <a className="pt-4" href={project.url} target="_blank">Visit</a>
-        {/* <Dialog as="div" initialFocus={projRef} open={isOpen} onClose={()=>setIsOpen(false)}>
-          <Dialog.Title>{project.name}</Dialog.Title>
-          <Dialog.Description>
-          <img
-          className="object-cover relative w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96 rounded-md"
-          src={project.img}
-          alt=""/>
-          </Dialog.Description>
-
-        </Dialog> */}
+        <p className=" text-xs text-ellipsis overflow-hidden ... pb-4">{project.descriptions}</p>
+        <div className="px-6 py-2 bg-primary bg-opacity-75 rounded-md">
+          <a href={project.url} target="_blank">Visit</a>
+        </div>
     </div>
   )
 }

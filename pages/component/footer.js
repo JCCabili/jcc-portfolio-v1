@@ -16,7 +16,7 @@ export default function Footer(props) {
         <div className="flex  items-center justify-center pt-8 text-sm flex-col align gap-2">
             <p>Designed & Build by </p>
             <p><b>Jhon Christopher Cabili</b></p>
-            <p>Powered By</p>
+            <p className="text-black">Powered By</p>
             <div className="flex justify-center gap-4 pt-4">
               <SiTailwindcss size={24}/>
               <TbBrandNextjs size={24}/>

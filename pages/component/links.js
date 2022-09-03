@@ -17,7 +17,7 @@ export default function Links(props) {
     const {size} = props;
   return (
     <div className="w-auto flex flex-row items-center justify-between">
-      <a href="https://www.linkedin.com/in/cabilijc/" target="_blank"><AiFillLinkedin className="content-center" size={size} /></a>
+      <a href="https://www.linkedin.com/in/cabilijc/" target="_blank"><AiFillLinkedin size={size} /></a>
       <a href="https://github.com/JCCabili" target="_blank"><BsGithub size={size}/></a>
       <a href="https://www.upwork.com/freelancers/~01eb7998bdea3e2786" target="_blank"><SiUpwork size={size}/></a>
       <a href="https://www.instagram.com/jcabili" target="_blank"><FaInstagram size={size}/></a>
